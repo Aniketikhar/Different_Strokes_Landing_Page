@@ -70,7 +70,7 @@ export default function Home() {
         {/* TrackRecord + rest — slides up over the pinned About */}
         <div className="relative z-[10] w-full">
           <TrackRecord />
-         {/* <Projects />
+         {/* <Projects />  // one by one work on it
           <Resources />
           <Inspiration />
           <Services />
