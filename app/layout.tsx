@@ -9,10 +9,10 @@ const mont = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Cuberto | Digital Agency",
-  description: "Landing page for cuberto",
+  title: "Different Strokes",
+  description: "Landing page for Different Strokes",
   icons: {
-    icon: '/images/icon.png'
+    icon: '/images/icon1.png'
   }
 };
 
