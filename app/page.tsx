@@ -61,14 +61,22 @@ export default function Home() {
       {/* Scrolling content — slides up and overlaps the hero */}
       <div className="relative z-10 w-full bg-white">
         <VideoBar />
-        <About />
-        <TrackRecord />
-        <Projects />
-        <Resources />
-        <Inspiration />
-        <Services />
-        <PreFooter />
-        <Footer />
+
+        {/* About — pins while TrackRecord scrolls over it */}
+        <div className="sticky top-0 z-[5] bg-white">
+          <About />
+        </div>
+
+        {/* TrackRecord + rest — slides up over the pinned About */}
+        <div className="relative z-[10] w-full">
+          <TrackRecord />
+          <Projects />
+          <Resources />
+          <Inspiration />
+          <Services />
+          <PreFooter />
+          <Footer />
+        </div>
       </div>
     </main>
   );

@@ -131,7 +131,7 @@ const Navbar = () => {
         <button ref={logoRef}>
           <Image
             src="/images/icon1.png"
-            alt="Cuberto Logo"
+            alt="Different Stroke Logo"
             width={75}
             height={40}
           />

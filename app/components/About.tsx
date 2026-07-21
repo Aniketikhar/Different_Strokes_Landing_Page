@@ -162,7 +162,7 @@ const About = () => {
       {/* ── Text Column ──────────────────────────────────────────── */}
       <div
         ref={textColRef}
-        className="lg:w-1/2 w-full flex flex-col lg:items-start items-start gap-7 lg:gap-9 relative z-10"
+        className="lg:w-1/2 w-full flex flex-col lg:items-start items-start gap-3 lg:gap-5 relative z-10"
       >
         {/* Label */}
         <div
@@ -175,7 +175,7 @@ const About = () => {
         {/* Heading — chars blur-to-sharp */}
         <h2
           ref={headingRef}
-          className="text-4xl md:text-5xl lg:text-[60px] font-bold leading-tight"
+          className="text-4xl md:text-2xl lg:text-[50px] font-bold leading-tight"
         >
           Creatively Different Since 1997.
         </h2>
