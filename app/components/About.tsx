@@ -184,13 +184,13 @@ const About = () => {
         <div className="flex flex-col gap-6 text-lg md:text-xl lg:text-[20px] text-gray-700 font-medium leading-relaxed">
           <p ref={para1Ref}>
             What began as a small design studio in Ahmedabad has grown into a
-            full-scale exhibition and brand communications agency. We've built
+            full-scale exhibition and brand communications agency. We&apos;ve built
             stalls across India and overseas — from chemical expos in Shanghai
             to coatings shows in Germany — always with the same idea: your
             stall should stop people mid-walk.
           </p>
           <p ref={para2Ref}>
-            We don't just design stands. We concept, design, execute and
+            We don&apos;t just design stands. We concept, design, execute and
             deliver — so you can focus on your business, not your booth.
           </p>
         </div>

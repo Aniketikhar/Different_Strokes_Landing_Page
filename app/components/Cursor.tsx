@@ -8,7 +8,7 @@ import { PiHandSwipeLeft } from "react-icons/pi";
 export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
   let hasMoved = false
-  const expText = useRef(null);
+  // const expText = useRef(null);
 
   useEffect(() => {
     const cursor = cursorRef.current;

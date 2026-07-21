@@ -168,7 +168,7 @@ const TrackRecord = () => {
             ref={headingRef}
             className="text-4xl md:text-5xl lg:text-[64px] font-bold leading-tight max-w-3xl"
           >
-            We'll let the numbers do the talking.
+            We&apos;ll let the numbers do the talking.
           </h2>
         </div>
 
