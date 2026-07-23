@@ -89,23 +89,23 @@ const PreFooter = () => {
           ref={buttonRef}
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          className="flex items-center justify-center w-65 md:w-75 lg:w-115 h-20 lg:h-28 relative group border border-white rounded-full overflow-hidden"
+          className="flex items-center justify-center w-44 md:w-52 lg:w-64 h-14 lg:h-18 relative group border border-white rounded-full overflow-hidden"
         >
-          <div className="relative lg:h-24 md:h-14 h-11 w-full z-10 overflow-hidden">
+          <div className="relative lg:h-14 md:h-10 h-8 w-full z-10 overflow-hidden">
             <p
               ref={topTextRef}
-              className="absolute lg:right- md:right- right-8  text-white"
+              className="absolute inset-0 flex items-center justify-center text-xs md:text-sm lg:text-base font-semibold tracking-widest text-white"
             >
               TELL US
             </p>
             <p
               ref={bottomTextRef}
-              className="absolute lg:right- md:right- right-8 text-black"
+              className="absolute inset-0 flex items-center justify-center text-xs md:text-sm lg:text-base font-semibold tracking-widest text-black"
             >
               TELL US
             </p>
           </div>
-          <div className="absolute left-0 bottom-[-100%] bg-white w-full  h-full rounded-[50%] group-hover:rounded-none group-hover:bottom-0 transition-all duration-450"></div>
+          <div className="absolute left-0 bottom-[-100%] bg-white w-full h-full rounded-[50%] group-hover:rounded-none group-hover:bottom-0 transition-all duration-450"></div>
         </button>
       </div>
     </div>
