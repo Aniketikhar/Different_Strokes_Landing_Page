@@ -127,7 +127,7 @@ const Projects = () => {
       ref={parentRef}
       className="w-full min-h-screen text-white bg-[#1a1a1a] lg:rounded-t-[60px] rounded-t-4xl tracking-tighter lg:px-0"
     >
-      <div className="md:pt-24 py-20 lg:pl-34 md:pl-24 lg:pb-28 px-6">
+      <div className="md:pt-24 py-20 lg:px-34 md:px-24 lg:pb-28 px-6">
         <div className="lg:text-[123px] md:text-6xl text-5xl lg:flex hidden flex-col items-start lg:leading-32 ">
           <div className="font-medium w-max h-28 overflow-hidden">
             <h1 className="prohead ">Featured</h1>
@@ -158,10 +158,10 @@ const Projects = () => {
             <video src="/videos/feature.mp4" autoPlay muted loop></video>
           </div>
         </div>
-        <div className="flex md:flex-row flex-col lg:gap-12 md:gap-0 gap-12 md:pt-38 pt-20">
+        <div className="flex md:flex-row flex-col lg:gap-12 md:gap-10 gap-12 md:pt-38 pt-20">
           <div
             ref={subParentRef1}
-            className="flex flex-col items-center gap-14"
+            className="w-full md:w-1/2 flex flex-col gap-14"
           >
             <div ref={cardRef} className="procard">
               <ProjectsCard
@@ -226,7 +226,7 @@ const Projects = () => {
           </div>
           <div
             ref={subParentRef2}
-            className="flex flex-col items-center gap-14 lg:pt-70 md:pt-40 lg:ml-0 md:-ml-20"
+            className="w-full md:w-1/2 flex flex-col gap-14 lg:pt-70 md:pt-40"
           >
             <div ref={cardRef} className="procard">
               <ProjectsCard
