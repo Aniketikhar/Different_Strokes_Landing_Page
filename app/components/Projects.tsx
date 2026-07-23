@@ -138,7 +138,7 @@ const Projects = () => {
             </div>
             <div className=" h-35 w-120 pl-0.5 overflow-hidden">
               <div className="prohead w-full h-full">
-                <Roboto text="projects" />
+                <Roboto text="Works" />
               </div>
             </div>
           </div>
@@ -150,7 +150,7 @@ const Projects = () => {
             </div>
             <div className="h-13 w-50 overflow-hidden">
               <div className="prohead w-full h-full">
-                <Roboto text="projects" />
+                <Roboto text="Works" />
               </div>
             </div>
           </div>
@@ -282,7 +282,7 @@ const Projects = () => {
         </div>
       </div>
       <div>
-        <Philosophy />
+        {/* <Philosophy /> */}
       </div>
     </div>
   );

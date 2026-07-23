@@ -4,12 +4,15 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import TrackRecord from "./components/TrackRecord";
+import WhatWeDo from "./components/WhatWeDo";
 import VideoBar from "./components/VideoBar";
 import Projects from "./components/Projects";
 import Resources from "./components/Resources";
 import Inspiration from "./components/Inspiration";
 import Services from "./components/Services";
 import PreFooter from "./components/PreFooter";
+import Clients from "./components/Clients";
+import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import { useEffect, useState } from "react";
@@ -62,20 +65,46 @@ export default function Home() {
       <div className="relative z-10 w-full bg-white">
         <VideoBar />
 
-        {/* About — pins while TrackRecord scrolls over it */}
+        {/* ── L1 undercard: About pins while TrackRecord+ slides over ── */}
         <div className="sticky top-0 z-[5] bg-white">
           <About />
         </div>
 
-        {/* TrackRecord + rest — slides up over the pinned About */}
+        {/* ── L1 overcard: TrackRecord+ slides over About ────────────── */}
         <div className="relative z-[10] w-full">
           <TrackRecord />
-         {/* <Projects />  // one by one work on it
-          <Resources />
-          <Inspiration />
-          <Services />
-          <PreFooter />
-          <Footer /> */}
+
+          {/* ── L2 undercard: WhatWeDo pins while Projects+ slides over ── */}
+          <div className="sticky top-0 z-[5]">
+            <WhatWeDo />
+          </div>
+
+          {/* ── L2 overcard: Projects+ slides over WhatWeDo ─────────────── */}
+          <div className="relative z-[10]">
+
+            {/* ── L3 undercard: Projects pins while Resources+ slides over ── */}
+            <div className="sticky bottom-0 z-[5]">
+              <Projects />
+            </div>
+
+            <div className="relative z-[10]">
+              {/* ── L4 undercard: Clients pins while Testimonials+ slides over ── */}
+              <div className="sticky bottom-0 z-[5]">
+                <Clients />
+              </div>
+
+              {/* ── L4 overcard: Testimonials+ slides over Clients ── */}
+              <div className="relative z-[10]">
+                <Testimonials />
+                {/* <Resources /> */}
+                {/* <Inspiration /> */}
+                {/* <Services /> */}
+                <PreFooter />
+                {/* <Footer /> */}
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </main>

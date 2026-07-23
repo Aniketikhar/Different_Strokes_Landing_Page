@@ -81,8 +81,8 @@ const PreFooter = () => {
       <div className="relative z-10 flex flex-col items-center lg:gap-8 gap-6 text-center lg:text-8xl md:text-6xl text-5xl font-normal">
         <div ref={textRef} className="md:pt-24">
           <p>
-            Have
-            <br /> An Idea?
+            Let's Build Something
+            <br /> People Stop For
           </p>
         </div>
         <button
